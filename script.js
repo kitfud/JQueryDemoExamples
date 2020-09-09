@@ -26,4 +26,14 @@ $(".color").removeClass("color2")
 boolean2=true;
 }
 })
+
+
+$("#fadein").click(function(){
+$("h1").fadeIn("slow");
+})
+
+$("#fadeout").click(function(){
+$("h1").fadeOut("slow");
+})
+
 });
